@@ -1,0 +1,321 @@
+*::selection{
+    background-color: rgba(196, 45, 50, 0.68);
+}
+
+
+h2{
+    
+    font-weight: 700;
+    font-size: 30px;
+}
+body{
+        
+font-family: 'Poppins', sans-serif;
+    color: #444444;
+}
+.bg-dark{
+   background-color:  #1a1a1a!important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    
+    color: #ffffff;
+        padding: 0 20px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    
+    color: #ec3237;
+}
+
+    
+
+.home{
+   
+    height: 800px;
+    
+  background-image: url(../img/cover/cover.jpg);
+    background-size: cover;
+    position: relative;
+ 
+    
+}
+.home-cover{
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(196, 45, 50, 0.68);
+    
+}
+.home-content h2{
+        text-shadow: 0px 5px 10px #af2424;
+     font-weight: 700;
+    font-size: 4em;
+}
+.home-content p{
+    font-size: 24px;
+    font-weight: 500px;
+}
+.home-content{
+   
+    
+   height: 100%;
+    width: 100%;
+  
+   
+    color: white;
+    
+}
+
+.home .button1{
+    background-color:  transparent;
+    padding: 10 25;
+    color: white;
+    border: solid 1px;
+    font-size: 16px;
+    padding: 
+    color: white;
+
+}
+.home .button1:hover{
+    background-color: white;
+    color: #ec3237;
+}
+
+
+
+.about .icon{
+    padding: 5px 15px;;
+    font-size: 1.4em;
+    border: 1px solid #999;
+    color: #777;
+    margin-right: 10px;
+}
+.about .icon:hover{
+    background-color: red;
+    color: white;
+}
+.about h2{
+    font-weight: 700;
+    
+    
+}
+.about .skills{
+    
+    margin-top: 70px;
+}
+.progress-bar{
+    background-color:  #ec3237;
+}
+
+
+.about .button2{
+    border: none;
+    padding: 10 25;
+    background-color: #ec3237;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.work{
+    
+    background-color: #f5f5f5;
+}
+
+.work-words h2{
+    
+   padding-top: 80px;
+}
+
+
+.work .sub-work{
+    
+    background-color: white;
+    padding: 20px;
+}
+.hov i{
+    border: none;
+    background-color: #eeeeee;;
+    padding: 10px;
+}
+
+.work .sub-work:hover{
+    
+    color: red;
+      
+}
+.work .sub-work:hover .hov i{
+    background-color: red;
+    color: white
+
+        
+}
+.work .button2{
+    border: none;
+    padding: 10 25;
+    background-color: #ec3237;
+    color: white;
+    text-align: center;
+    
+}
+
+.bground{
+      background-image: url(../img/work/project-counter.jpg);
+    height: 300px;
+    
+   
+
+}
+.bground .words h4{
+    color: #ec3237;
+    font-weight: 600px;
+    font-size: 18px;
+}
+.bground .words i{
+    font-size: 32px;
+   color: #ec3237;
+   
+}
+
+
+.bground .words{
+    color: white;
+    font-weight: 600px;
+    font-size: 48px;
+        
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 20px;
+    
+}
+
+.page-link{
+    color: #444444;
+        border: 2px solid #dddddd;
+    margin-right: 3px;
+}
+.page-link:hover{
+            border: 2px solid red;
+    color: red;
+    background-color: white;
+
+    
+    
+}
+.navv{
+    padding: 50px;
+}
+.alll{
+    
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.alll:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.porto{
+    background-color: #f5f5f5;
+}
+.modal-overlay{
+    background-color: white;
+}
+ h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+.project{
+    position: relative;
+}
+.project i{
+    position: absolute;
+   
+    
+    top: 64%;
+    left: 45%;
+    
+    
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    font-size: 14px;
+    
+    
+}
+.project i:hover{
+    background-color: red;
+}
+.porto .button2{
+    border: none;
+    padding: 10 25;
+    background-color: #ec3237;
+    color: white;
+    text-align: center;
+    
+}
+
+.hire{
+    height: 600px;
+}
+.contact ul{
+list-style: none;}
+
+.hire .icon{
+    padding: 5px 15px;;
+    font-size: 1.4em;
+    border: 1px solid #999;
+    color: #777;
+    margin-right: 10px;
+}
+.hire .icon:hover{
+    background-color: red;
+    color: white;
+}
+.button2{
+    border: none;
+    padding: 10 25;
+    background-color: #ec3237;
+    color: white;
+    text-align: center;
+    
+}
+.button2:hover{
+        background-color: #c62d32;
+    
+}
+.form-control{
+    
+    border: solid 2px rgb(204, 204, 204);
+    padding: 20px 15px;
+    
+}
+.txt{
+    max-width: 100%;
+        height: 300px;
+}
+.cover-photo{
+    background-image: url(../img/work/client-testimonial.jpg);
+    background-size: cover;
+    height: 400px;
+    
+}
+.carousel-item img{
+    border-radius: 50%;
+    
+    
+    
+   
+    
+}
+.cover-photo h4{
+    color: #ec3237;
+}
